@@ -1,0 +1,82 @@
+@use '@/styles/colours';
+
+.main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: min(120px, 5vh);
+
+  // You've unlocked 3 beer mats
+  h3 {
+    position: absolute;
+    top: 88px;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    z-index: 100;
+  }
+}
+
+.mats {
+  position: relative;
+  width: 100%;
+  padding: 24px 0;
+}
+
+.panel {
+  width: 100%;
+  aspect-ratio: 1/1;
+  max-height: 56vh;
+  padding: 4px;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+}
+
+.indicators {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.indicator {
+  position: relative;
+  // Underline
+  > div {
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: colours.$gold;
+    border-radius: 1px;
+    transition: all 320ms ease;
+    transform: scaleY(0);
+    opacity: 0;
+    transform-origin: bottom;
+  }
+}
+
+.activeIndicator {
+  > div {
+    transform: scaleY(1);
+    opacity: 1;
+  }
+}
+
+.cta {
+  margin-top: 16px;
+  padding: 0 24px;
+  p {
+    padding: 0 24px;
+    font-size: 20px;
+    text-align: center;
+    font-size: 18px;
+  }
+}

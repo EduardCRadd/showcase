@@ -1,0 +1,53 @@
+@use '@/styles/colours.scss';
+
+.container {
+  width: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  padding: 4px 24px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #fff;
+  color: #000;
+
+  box-shadow: 0px 0px 8px 2px #00000060;
+
+  font-size: 1.125rem;
+  font-weight: 700;
+
+  position: relative;
+}
+
+.arrowBtn {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.close {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: -16px;
+  left: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  > span {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: colours.$gold;
+    border-radius: 24px;
+  }
+}

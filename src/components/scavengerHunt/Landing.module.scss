@@ -1,0 +1,107 @@
+@use '@/styles/colours';
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.card {
+  position: relative;
+  width: 100%;
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: colours.$red;
+  border-top: 3px solid colours.$gold;
+  border-bottom: 3px solid colours.$gold;
+  overflow-x: clip;
+
+  @media screen and (max-height: 600px) {
+    margin-top: 32px;
+  }
+}
+
+.textWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.overline {
+  font-family: Steelfish;
+  text-transform: uppercase;
+  font-size: 6.25svw;
+  font-weight: 700;
+  line-height: 0.9;
+}
+.heading {
+  font-family: Steelfish;
+  text-transform: uppercase;
+  font-size: 20svw;
+  font-weight: 700;
+  line-height: 1.1;
+  .gold {
+    color: colours.$gold;
+  }
+}
+
+.subheading {
+  font-family: Steelfish;
+  text-transform: uppercase;
+  font-size: 10.3svw;
+  font-weight: 700;
+  line-height: 1;
+  .gold {
+    color: colours.$gold;
+    border-bottom: 1.5px solid colours.$gold;
+  }
+}
+
+.smallSubheading {
+  font-family: Gotham;
+  font-size: 6svw;
+  display: block;
+  margin-top: 8px;
+  margin-left: auto;
+}
+
+.cta {
+  margin-bottom: 32px;
+}
+
+.terms {
+  color: black;
+  font-size: 12px;
+  font-weight: 300;
+  margin: 0 auto;
+  a,
+  button {
+    display: inline-block;
+    text-decoration: underline;
+    font-size: inherit;
+    color: inherit;
+  }
+}
+
+.dialog {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.prizesSticker {
+  position: absolute;
+  top: -14%;
+  right: 7%;
+}

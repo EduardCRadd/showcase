@@ -1,0 +1,29 @@
+.container {
+  position: relative;
+  height: 88px;
+  width: 100%;
+  bottom: 32px;
+
+  display: flex;
+  background-color: white;
+}
+
+.muralBoxImg {
+  width: 88px;
+  height: 88px;
+}
+
+.linkContainer {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  font-size: 18px;
+  letter-spacing: 0.01em;
+  color: black;
+  padding: 0 24px;
+}
+
+.arrow {
+  width: 32px;
+  margin-left: auto;
+}

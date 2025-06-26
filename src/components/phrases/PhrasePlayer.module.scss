@@ -1,0 +1,48 @@
+@use '@/styles/colours';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  gap: 16px;
+  padding-top: 8px;
+  padding-bottom: 64px;
+  text-align: center;
+
+  h2 {
+    margin-bottom: 16px;
+    font-size: 18px;
+    letter-spacing: 2px;
+  }
+
+  h2,
+  span,
+  img {
+    opacity: 1;
+  }
+}
+
+.phraseWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+  gap: 8px;
+}
+
+.helpText {
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  color: rgba(#fff, 0.8);
+}
+
+.definition {
+  max-width: calc(100% - 32px);
+  font-size: 18px;
+  letter-spacing: 0.01em;
+  line-height: 22px;
+}

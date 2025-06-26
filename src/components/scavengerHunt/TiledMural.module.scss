@@ -1,0 +1,51 @@
+@use '@/styles/colours';
+
+.tile {
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  position: relative;
+}
+
+.glassWrapper {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+}
+
+.glass {
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+
+  width: 60px;
+  height: 106px;
+  display: flex;
+
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(-45deg, transparent 40%, #fff1d5 50%, transparent 60%);
+    background-size: 300%;
+    background-position-x: 250%;
+    background-repeat: no-repeat;
+    animation: shimmer 6s infinite linear;
+
+    z-index: 1;
+  }
+}
+
+@keyframes shimmer {
+  to {
+    background-position-x: -250%;
+  }
+}

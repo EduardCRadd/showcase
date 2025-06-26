@@ -1,0 +1,85 @@
+@use '@/styles/colours';
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 4px;
+  border: solid 1px colours.$shadowRed;
+  width: 100%;
+  border-radius: 2px;
+  height: 56px;
+  background-color: white;
+
+  .wrapper {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 2px;
+  }
+
+  &,
+  * {
+    text-align: center;
+    font-family: Gotham;
+    font-weight: 700;
+    font-size: 1.125rem;
+    text-align: start;
+    letter-spacing: 0.02em;
+  }
+
+  input {
+    color: #000;
+    outline: none;
+    height: 100%;
+    border: none;
+    min-width: 22px;
+    background: transparent;
+
+    &::placeholder {
+      color: #8E8E8F;
+    }
+
+    // &:first-of-type,
+    // &:last-of-type {
+    //   width: 100%;
+    // }
+
+    &:first-of-type {
+      text-align: right;
+    }
+
+    &:nth-of-type(2) {
+      text-align: center;
+      flex-shrink: 0;
+    }
+
+    &:last-of-type {
+      text-align: left;
+    }
+  }
+
+  &.focused {
+    outline: 1px auto -webkit-focus-ring-color;
+  }
+
+  .placeholder {
+    color: #8E8E8F;
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .error {
+    color: colours.$error;
+  }
+}
+.hidden {
+  opacity: 0;
+}
+
+.dobDelimitator {
+  color: #8E8E8F;
+}

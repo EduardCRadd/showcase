@@ -1,0 +1,60 @@
+@use '@/styles/colours.scss';
+@use '@/styles/fonts.scss';
+
+.container {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  padding: 12vh 64px 56px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: colours.$red;
+  color: #fff;
+  text-align: center;
+}
+
+.form {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  margin-bottom: 24px;
+  max-height: 32vh;
+  object-fit: contain;
+}
+
+.text {
+  padding-bottom: 24px;
+  font-family: Gotham;
+  font-weight: bold;
+}
+
+.dateContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.notValidAgeText {
+  color: #fff;
+  margin-bottom: 16px;
+  background: black;
+  padding: 6px 6px 4px;
+  font-family: Gotham;
+  font-weight: 300;
+  text-transform: uppercase;
+  border-radius: 3px;
+  white-space: nowrap;
+}
+
+.footerLinks {
+  margin-top: 24px;
+}

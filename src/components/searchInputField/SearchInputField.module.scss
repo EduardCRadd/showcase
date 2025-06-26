@@ -1,0 +1,127 @@
+@use '@/styles/colours.scss';
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+.inputWrapper {
+  position: relative;
+  width: 100%;
+}
+
+.input {
+  color: #fff;
+  border: solid 1px colours.$shadowRed;
+  font-family: Gotham;
+  font-weight: 700;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 2px;
+  padding: 16px 38px 16px 16px;
+  font-size: 1.125rem;
+  text-align: left;
+  letter-spacing: 0.01em;
+  height: 56px;
+  color: #000;
+
+  &::placeholder {
+    color: #8E8E8F;
+  }
+
+  &[type='date'] {
+    display: block;
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+  }
+  &[type='date']::-webkit-inner-spin-button,
+  &[type='date']::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+  }
+
+  &.error {
+    color: colours.$error !important;
+    -webkit-text-fill-color: colours.$error !important;
+  }
+
+  &:-webkit-autofill,
+  &:-webkit-autofill:hover,
+  &:-webkit-autofill:focus,
+  &:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 1000px #fff inset !important;
+    -webkit-text-fill-color: #000 !important;
+    transition: background-color 5000s ease-in-out 0s;
+  }
+}
+
+.searchIcon {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.searchResults {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  max-height: 178px;
+  overflow-y: auto;
+  background-color: #fff;
+  border: 1px solid #F3F3F5;
+  border-radius: 2px;
+  margin-top: 8px;
+  padding: 8px 24px;
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      padding: 18px 0;
+      border-bottom: 1px solid #ddd;
+      font-family: 'Gotham';
+      color: #000;
+      cursor: pointer;
+
+      &:last-child {
+        border-bottom: none;
+      }
+
+      &:hover {
+        background-color: #f5f5f5;
+      }
+    }
+  }
+}
+
+.errorMessage {
+  color: #fff;
+  font-size: 14px;
+  font-family: Gotham;
+  font-weight: 700;
+}
+
+.select {
+  position: relative;
+  width: 100%;
+
+  select {
+    @extend .input;
+    appearance: none;
+  }
+
+  .arrow {
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}

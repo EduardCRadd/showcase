@@ -1,0 +1,48 @@
+@use '@/styles/colours';
+
+.main {
+  height: 100%;
+  height: 100dvh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  padding: 104px 24px 24px 24px;
+
+  > * {
+    opacity: 0; // Animated in
+  }
+
+  p {
+    width: 60%;
+    margin: 8px 0;
+  }
+
+  span {
+    text-transform: uppercase;
+    font-family: Steelfish;
+    color: colours.$gold;
+    font-size: 30px;
+    letter-spacing: 0.05em;
+  }
+}
+
+.image {
+  object-fit: contain;
+  max-width: 100%;
+}
+
+.button {
+  width: calc(100% - 64px);
+  margin-top: 32px;
+}
+
+.revlImageContainer {
+  padding: 16px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

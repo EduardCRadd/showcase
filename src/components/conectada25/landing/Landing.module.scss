@@ -1,0 +1,74 @@
+@use '@/styles/colours.scss';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  //justify-content: space-between;
+  align-items: center;
+  height: 100dvh;
+  width: 100%;
+  position: relative;
+}
+
+.landingCopy {
+  width: 62%;
+  height: auto;
+  object-fit: cover;
+  margin-top: 12vw;
+  padding-bottom: 8px;
+
+  @media (max-height: 548px) {
+    margin-top: 8vw;
+    padding-bottom: 0px;
+    width: 52%;
+  }
+}
+
+.buttonWrapper {
+  width: 62%;
+  padding-bottom: 18px;
+
+  @media (max-height: 548px) {
+    padding-bottom: 8px;
+  }
+}
+
+.terms {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 0.75rem;
+  white-space: nowrap;
+  margin-bottom: 18px;
+  text-transform: uppercase;
+
+  @media (max-height: 548px) {
+    margin-bottom: 6px;
+  }
+
+  a {
+    display: inline-block;
+    text-decoration: underline;
+  }
+}
+
+.assetWrapper {
+  position: relative;
+  width: 100%;
+  margin-top: auto;
+}
+
+.sticker {
+  position: absolute;
+  bottom: 26vh;
+  right: 8px;
+  height: auto;
+  z-index: 11;
+
+  @media (max-height: 667px) {
+    bottom: 30vh;
+    width: 84px;
+  }
+  @media (max-height: 548px) {
+    bottom: 36vh;
+  }
+}

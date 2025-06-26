@@ -1,0 +1,113 @@
+@use '@/styles/colours';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 100%;
+}
+
+.inputContainer {
+  position: relative;
+  width: 100%;
+
+  &.withPrefix {
+    .input {
+      padding-left: 52px; 
+    }
+  }
+}
+
+.prefixWrapper {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  height: calc(100% - 14px);
+}
+
+.prefixText {
+  font-family: Gotham, sans-serif;
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: #000;
+  pointer-events: none;
+}
+
+.prefixDivider {
+  width: 1px;
+  height: 100%;
+  background-color: #E6E6E6;
+  margin-left: 0.5rem;
+}
+
+.input {
+  color: #000;
+  border: solid 1px colours.$shadowRed;
+  font-family: Gotham;
+  font-weight: 700;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 2px;
+  padding: 16px;
+  font-size: 1.125rem;
+  text-align: left;
+  letter-spacing: 0.02em;
+  height: 56px;
+
+  &::placeholder {
+    color: #8E8E8F;
+  }
+
+  &[type='date'] {
+    display: block;
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+  }
+  &[type='date']::-webkit-inner-spin-button,
+  &[type='date']::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+  }
+
+  &.error {
+    color: colours.$error !important;
+    -webkit-text-fill-color: colours.$error !important;
+  }
+
+  &:-webkit-autofill,
+  &:-webkit-autofill:hover,
+  &:-webkit-autofill:focus,
+  &:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 1000px #fff inset !important;
+    -webkit-text-fill-color: #000 !important;
+    transition: background-color 5000s ease-in-out 0s;
+  }
+}
+
+.errorMessage {
+  color: #fff;
+  font-size: 14px;
+  font-family: Gotham;
+  font-weight: 700;
+}
+
+.select {
+  position: relative;
+  width: 100%;
+  background-color: colours.$red;
+
+  select {
+    @extend .input;
+    appearance: none;
+  }
+
+  .arrow {
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}

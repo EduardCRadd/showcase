@@ -1,0 +1,71 @@
+@use '@/styles/colours';
+
+.container {
+  position: fixed;
+  top: 4px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  z-index: 9999;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  position: fixed;
+  left: 24px;
+  top: 8px;
+  z-index: 9999;
+}
+
+.menuIcon {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: colours.$red;
+  padding: 8px;
+  border-radius: 100%;
+
+  transition: all 0.3s ease;
+
+  // Rewards indicator
+  > div {
+    position: absolute;
+    top: -1px;
+    right: -2px;
+    border-radius: 50%;
+    border: 2px solid colours.$red;
+    width: 16px;
+    height: 16px;
+    background-color: colours.$gold;
+    color: colours.$red;
+    line-height: 14px;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  // Page title
+  h1 {
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Steelfish;
+    white-space: nowrap;
+    font-size: 1.125rem;
+    position: absolute;
+    left: 50%;
+    top: calc(100% + 4px);
+    transform: translateX(-50%);
+  }
+}
+
+.menuSvg {
+  box-shadow: none !important;
+  border: none !important;
+  outline: none !important;
+}

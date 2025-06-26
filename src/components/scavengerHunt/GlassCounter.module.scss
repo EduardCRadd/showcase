@@ -1,0 +1,69 @@
+@use '@/styles/colours';
+
+.container {
+  width: 100%;
+  padding: 20px 24px;
+  background-color: #fff;
+
+  box-shadow: 0px 0px 8px 2px #00000060;
+
+  position: fixed;
+  bottom: 0;
+  left: 0;
+
+  display: grid;
+  grid-template-columns: 1fr 40px 1fr;
+
+  z-index: 50;
+
+  &,
+  & * {
+    pointer-events: none;
+  }
+}
+
+.glasses {
+  display: flex;
+  gap: 8px;
+
+  .glass {
+    width: 23px;
+    height: 46px;
+    object-fit: contain;
+
+    background-color: #eee;
+    position: relative;
+
+    mask-repeat: no-repeat;
+
+    .beer {
+      width: 300%;
+      height: 300%;
+      transform: translate(-40px, 60px);
+      object-fit: cover;
+      object-position: top;
+    }
+
+    .check {
+      position: absolute;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%) scale(0);
+    }
+  }
+}
+
+.count {
+  color: #000;
+  font-size: 18px;
+  font-weight: 700;
+  margin: auto;
+}
+
+.chulapo {
+  position: absolute;
+  width: 150px;
+  height: 206px;
+  right: -36px;
+  bottom: -32px;
+}

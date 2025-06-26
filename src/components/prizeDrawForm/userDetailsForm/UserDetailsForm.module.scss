@@ -1,0 +1,87 @@
+@use '@/styles/colours';
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  padding: 0px 36px 36px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+
+  p {
+    width: 100%;
+    font-family: 'Gotham';
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+
+    a {
+      text-decoration: underline;
+      text-decoration-color: rgba(255, 255, 255, 0.3);
+      text-decoration-thickness: 1px;
+      text-underline-offset: 2px;
+    }
+  }
+
+  button {
+    margin-bottom: 16px;
+  }
+}
+
+.notice {
+  font-size: 18px !important;
+  text-align: center;
+  padding-top: 16px;
+}
+
+.selectBox {
+  position: relative;
+  width: 100%;
+}
+
+.select {
+  position: relative;
+  width: 100%;
+  appearance: none;
+  border: solid 1px colours.$shadowRed;
+  font-family: Gotham;
+  font-weight: 700;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 2px;
+  padding: 16px;
+  font-size: 1.125rem;
+  text-align: left;
+  letter-spacing: 0.02em;
+  height: 56px;
+
+  &:invalid {
+    color: #8e8e8f;
+  }
+  &:valid {
+    color: #000;
+  }
+}
+
+.arrow {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+}

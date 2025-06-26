@@ -1,0 +1,36 @@
+@use '@/styles/colours.scss';
+@use '@/styles/fonts.scss';
+
+.footer {
+  overflow: hidden;
+  flex-shrink: 0;
+
+  &.fixed {
+    opacity: 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2000;
+  }
+}
+
+.muralBox {
+  height: 90px;
+}
+
+.houndToothImg {
+  height: 32px;
+}
+
+.line {
+  width: 100%;
+  height: 2px;
+  background: colours.$goldGradient;
+}
+
+.image {
+  width: 100%;
+  object-fit: contain;
+  object-position: top;
+}

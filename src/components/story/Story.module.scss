@@ -1,0 +1,80 @@
+@use '@/styles/colours.scss';
+
+.container {
+  user-select: none;
+  height: 100%;
+  overflow: hidden;
+
+  section {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: clamp(24px, 22%, 120px) 0;
+
+    @media screen and (max-height: 667px) {
+      gap: 8px;
+    }
+
+    > p {
+      text-align: center;
+      padding: 16px 24px;
+      font-size: 1.1rem;
+    }
+  }
+}
+
+.image {
+  max-height: 42vh;
+  object-fit: contain;
+}
+
+.swipeUp {
+  position: fixed;
+  bottom: 0px;
+  width: 80px;
+  left: calc(50% - 40px);
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: uppercase;
+  transition: all 800ms ease;
+  pointer-events: none;
+
+  @media screen and (max-height: 667px) {
+    bottom: -24px;
+  }
+
+  > span {
+    white-space: nowrap;
+    background-color: colours.$red;
+    padding: 8px;
+  }
+
+  > div {
+    height: max(7vh, 40px);
+    width: 2px;
+    background: colours.$goldGradientVertical;
+  }
+}
+
+.cta {
+  @extend .swipeUp;
+  pointer-events: all;
+  > span {
+    background-color: colours.$red;
+    border-bottom: 1px solid colours.$gold;
+  }
+}
+
+.show {
+  opacity: 1;
+  transform: translateY(0%);
+}
+
+.hide {
+  opacity: 0;
+  transform: translateY(100%);
+}

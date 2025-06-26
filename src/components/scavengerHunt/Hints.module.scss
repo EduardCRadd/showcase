@@ -1,0 +1,21 @@
+.card {
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+  padding: 12px 20px;
+
+  position: fixed;
+  left: 50%;
+  top: 80px;
+  transform: translateX(-50%) scale(0);
+  opacity: 0;
+
+  font-weight: 700;
+  font-size: 18px;
+  font-family: Gotham;
+  color: #000;
+
+  p {
+    white-space: nowrap;
+  }
+}

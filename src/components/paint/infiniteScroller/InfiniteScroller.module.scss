@@ -1,0 +1,25 @@
+.infiniteScroller {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  // border: dashed 1px yellow;
+  height: min(calc(100vh - 300px), 320px);
+  height: min(calc(100svh - 300px), 320px);
+
+  .viewport {
+    // border: dashed 1px pink;
+    display: flex;
+    height: 100%;
+    position: relative;
+  }
+}
+
+.panel {
+  // border: dashed 1px green;
+  position: absolute;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

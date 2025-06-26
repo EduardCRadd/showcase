@@ -1,0 +1,93 @@
+@use '@/styles/colours.scss';
+
+.container {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  z-index: 999;
+  background-color: colours.$red;
+  padding: 80px 0 0;
+
+  gap: 16px;
+
+  @media screen and (max-height: 667px) {
+    gap: 8px;
+  }
+
+  ul {
+    flex: 1;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+
+    @media screen and (max-height: 667px) {
+      gap: 2px;
+    }
+  }
+
+  li {
+    position: relative;
+    list-style: none;
+    font-family: 'Steelfish';
+    font-weight: 700;
+    font-size: min(56px, 6vh);
+    line-height: 1.2;
+    text-transform: uppercase;
+    text-align: center;
+    width: fit-content;
+    border-bottom: 2px solid colours.$gold;
+    > div {
+      position: absolute;
+      top: -4px;
+      right: -8px;
+      border-radius: 50%;
+      border: 2px solid colours.$red;
+      width: 16px;
+      height: 16px;
+      background-color: colours.$gold;
+      color: colours.$red;
+      //line-height: 14px;
+      font-size: 12px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+.closeIcon {
+  z-index: 99;
+}
+
+.socialContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.madriText {
+  font-family: 'Gotham';
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  p {
+    border-bottom: 1px solid colours.$gold;
+  }
+}
+
+.drinkAware {
+  object-fit: contain;
+}
+
+.footerLinks {
+  max-width: calc(100% - 32px) !important;
+}

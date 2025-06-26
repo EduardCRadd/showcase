@@ -1,0 +1,29 @@
+@use './colours.scss';
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('../../src/assets/fonts/GothamCondensed-Bold.woff');
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('../../src/assets/fonts/GothamCondensed-Book.woff');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Steelfish';
+  src: url('../../src/assets/fonts/SteelfishRg-Bold.woff');
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Steelfish';
+  src: url('../../src/assets/fonts/SteelfishRg-Regular.woff');
+  font-style: normal;
+  font-weight: 400;
+}

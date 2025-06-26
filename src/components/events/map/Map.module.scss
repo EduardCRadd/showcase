@@ -1,0 +1,10 @@
+@use '@/styles/colours.scss';
+
+.map {
+  width: 100%;
+  height: calc(100% + 26px);
+  
+  > div {
+    background-color: colours.$red !important;
+  }
+}

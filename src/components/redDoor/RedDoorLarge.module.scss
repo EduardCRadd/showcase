@@ -1,0 +1,60 @@
+@use '@/styles/colours';
+
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 64px;
+  z-index: 1001;
+}
+
+// The background is used to reveal the content beneath it
+.background {
+  position: absolute;
+  inset: 0;
+  background-color: colours.$red;
+}
+.menuMask {
+  position: fixed;
+  background-color: colours.$red;
+  top: 0;
+  width: 100%;
+  height: 64px;
+}
+
+.door {
+  aspect-ratio: 12/21;
+  object-fit: contain;
+}
+
+.doorLarge {
+  @extend .door;
+  position: absolute;
+  height: 100%;
+  margin-bottom: 64px;
+  opacity: 0; // Fades in and moves when the intro is ending
+}
+
+.children {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  padding: 0 24px;
+  transform-origin: top;
+  display: flex;
+  flex-direction: column;
+}
+
+// Main
+
+.main {
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+}

@@ -1,0 +1,51 @@
+@use '@/styles/fonts.scss';
+
+.button {
+  position: relative;
+  padding: 16px 24px;
+  border-radius: 2px;
+  user-select: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  // Text
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 22px;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  font-family: Gotham;
+
+  white-space: nowrap;
+
+  // transition: transform 300ms ease;
+
+  &:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+  }
+
+  &:active {
+    transform: scale(0.95);
+  }
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.primary {
+  background-color: #fff;
+  color: #000;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+  border: none;
+}
+.secondary {
+  background-color: #1E1E20;
+  color: #fff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+  border: none;
+  padding: 19.5px 24px;
+  text-transform: capitalize;
+}

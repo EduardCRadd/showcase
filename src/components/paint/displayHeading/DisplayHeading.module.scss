@@ -1,0 +1,30 @@
+@use '@/styles/colours.scss';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 10px 16px;
+
+  > p {
+    text-transform: uppercase;
+    line-height: 1;
+    white-space: nowrap;
+
+    font-family: 'Steelfish';
+    font-weight: 700;
+
+    &:first-of-type {
+      font-size: 4.5rem;
+
+      > span {
+        color: colours.$gold;
+      }
+
+      @media screen and (min-width: 414px) {
+        font-size: 5.2rem;
+      }
+    }
+  }
+}

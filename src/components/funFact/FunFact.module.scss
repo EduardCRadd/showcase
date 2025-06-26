@@ -1,0 +1,32 @@
+@use '@/styles/colours';
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 16px;
+  padding: 10% 0;
+  text-align: center;
+  flex: 1;
+
+  h2 {
+    color: colours.$gold;
+    text-transform: uppercase;
+    font-size: 7vw;
+    margin-bottom: 16px;
+  }
+
+  span {
+    display: block;
+    font-size: 5vw;
+    margin-bottom: 10%;
+  }
+
+  h2,
+  span,
+  img {
+    opacity: 0;
+  }
+}

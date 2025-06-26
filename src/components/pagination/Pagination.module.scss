@@ -1,0 +1,18 @@
+@use '@/styles/colours';
+
+.pagination {
+  display: flex;
+  gap: 8px;
+
+  > div {
+    height: 4px;
+    width: 8px;
+    background-color: colours.$patternRed;
+    transition: all ease 0.3s;
+
+    &.active {
+      background-color: colours.$gold;
+      width: 56px;
+    }
+  }
+}

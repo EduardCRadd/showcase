@@ -1,0 +1,9 @@
+.lottieWrapper {
+  position: absolute;
+  width: 100%;
+  bottom: -1vh;
+  left: 50%;
+  transform: translate(-50%, 0);
+  object-fit: cover;
+  z-index: 10;
+}

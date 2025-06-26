@@ -1,0 +1,11 @@
+@use '@/styles/colours';
+
+.main {
+  display: flex;
+  flex-direction: column;
+  padding-top: 102px;
+  height: 100vh;
+  width: 100%;
+  padding-bottom: 56px;
+  flex: 1;
+}

@@ -1,0 +1,124 @@
+## Madri – Win A Trip To Madrid 2024
+
+**Short Terms & Conditions**
+
+T&Cs: 18+, entry open to residents of the United Kingdom aged 18 years or over at the date of entry. To
+enter, purchase a pint of Madri at a participating pub, scan the QR code and enter your details for the
+chance to win. The promotion will run from 04/11/2024 until 01/12/2024. 2030 prizes available across
+participating outlets. **Prizes:** 30 x trips for 2 to Madrid including 2 nights’ B&B in a 4* hotel, return
+economy flights from any UK airport of your choice, return transfers and £300 spending money, 500 x
+Madri branded hoodies, 1000 x Madri branded water bottles, 250 x Madri sticker packs, 250 x reversible
+bucket hats. Internet access and valid email address required. Max. one entry per person per day. Winners
+will be picked in a random draw using an independently supervised process. Scan the QR code to access
+the full T&Cs. **Promoter:** Molson Coors Brewing Company (UK) Limited, 137 High Street, Burton Upon
+Trent, DE14 1JZ.
+
+**Long Terms and Conditions to be hosted online.**
+
+These Terms and Conditions prevail in the event of any conflict or inconsistency with any other
+communications, including advertising or promotional materials. Claim instructions are deemed to form
+part of these Terms and Conditions. All participants will be deemed to have accepted and be bound by
+these Terms and Conditions. Please retain a copy for your information.
+
+1. **Eligibility:** This promotion is open to residents of the United Kingdom aged 18 years or over at the
+   date of entry. Proof of age and residence may be required. Prize Draw excludes employees (and their
+   immediate families) of the Promoter, its subsidiaries, its agents, or anyone else professionally
+   connected with this Prize Draw.
+2. **Participating outlets:** There are 4000 participating outlets across the UK.
+3. **Promotion Period:** The promotion is open from 4th November 2024 and closes 1st December 2024.
+4. **Entry instructions:** To enter, purchase 1 pint of Madri at participating outlets, scan the QR code
+   available on the red door leaflet you are handed, select the pub you were in and enter your name,
+   address, contact e-mail address and phone number.
+5. Entry is via online only. Internet access and a valid email address is required.
+6. Only one entry per person per day.
+7. **Prizes:** There are 2030 x prizes to be won. 500 x Madri branded hoodies, 1000 x Madri branded water
+   bottles, 250 x Madri sticker packs, 250 x Madri reversible bucket hats, 30 x trips for two to Madrid.
+   Each trip to Madrid includes:
+
+   a. Return economy flights to Madrid any UK airport of your choice for the winner plus 1
+   guest
+
+   b. 4* hotel accommodation for two nights, sharing a room on a B&B basis
+
+   c. Return airport transfer in Madrid (excludes domestic transfer)
+
+   d. £300 spending money
+8.  Prize excludes domestic transfers, additional food and beverages and personal expenses.
+      Passport/visa arrangement and travel insurance are the responsibility of the winner and their guest. Prize must be taken by **October 2025** subject to availability, excluding travel in December
+      2024, Easter and all Bank Holidays weekends through 2024/2025.
+9. **Winner Selection:** 2030 x winners will be picked in a random draw using an independently
+   supervised process.
+10. **Winner Notification:** Prize winners will be sent an email within 7 days of the end of the promotion.
+    The winners of the Madrid Trips will be sent an additional survey to complete. The winners will be
+    required to respond to the survey within 14 days of receipt confirming acceptance of the prize
+    and required details.
+11. In the event a winner does not respond to the email notification within 14 days, the Promoter
+    reserves the right to select an alternative winner from all remaining entries, with the originally
+    selected winner forfeiting their right to the prize. Madrid trip winners: in the event a winner of a
+    Madrid trip does not complete the survey (see clause 10) within 14 days, the Promoter reserves
+    the right to select an alternative winner from all remaining entries, with the originally selected
+    winner forfeiting their right to the prize.
+12. **Prize fulfilment:** Winners will receive their prize confirmation and booking instructions by email
+    within 28 days of the competition closing.
+13. Prizes are as stated, are not for exchange or resale and no other prize alternatives are available.
+    Unless otherwise agreed in writing by the Promoter, a prize will only be awarded directly to the
+    entrant responsible for a winning text entry.
+14. **No correspondence:** Winner selection is final and binding and no correspondence will be entered
+    into, except with the prize winners.
+15. Bulk entries, entrants using multiple addresses, email addresses, numbers or via agents, third
+    parties, organised groups or those automatically generated by computer will not be accepted but
+    may still be charged. Entries received by any means other than as specified in these Terms will be
+    rejected. Any person persistently trying to circumvent the entry process will be disqualified
+    immediately.
+16. The Promoter does not accept any responsibility in the event a winner is not able to take their
+    prize for whatever reason, including in the event that a winner provides incorrect address details.
+17. Insofar as is permitted by law, the Promoter and its agents will not in any circumstances be
+    responsible or liable to compensate entrants for any losses that may be incurred as a result of
+    entering the Promotion and the Promoter does not accept any liability for any loss, damage,
+    disappointment, personal injury or death howsoever arising in connection with this promotion
+    except where such damage or loss is caused by the negligence of the Promoter or its agents. The
+    winners’ statutory rights are not affected.
+18. **Use of Personal Data:** Personal data provided will be used for the purposes of administering the
+    promotion and anything else that the entrant has expressly consented to only. Please see
+    Promotor’s Privacy Policy at <https://www.molsoncoors.com/privacy-policy>.
+19. The Promoter is required to either publish or make available information that indicates a valid award
+    took place. As such, the Promoter will publish the surname and county of prize winners OR send the
+    surname and county of prize winners to anyone that contacts the Promoter by sending a SAE to Madri,
+    Win A Trip To Madrid 2024, 137 High Street, Burton on Trent, DE14 1JZ by no later than 28 days after
+    the end of the Promotional Period.
+20. If a winner objects to any or all of their surname, county and winning entry being published or made
+    available, they should contact the Promoter by sending a SAE to Madri, Win A Trip To Madrid 2024,
+    137 High Street, Burton on Trent, DE14 1JZ. In such circumstances, the Promoter must still provide
+    the information and winning entry to competent authorities, including the Advertising Standard
+    Authority, on request.
+21. **General:** The Promoter cannot be held responsible for the failure of any third party to fulfil its
+    obligations in connection with this promotion, although the Promoter will endeavour to minimise the
+    effect of such failure on the entrants.
+22. The Promoter is not responsible for any entries which fail to be registered or are delayed for any
+    technical or other reason whatsoever. The Promoter cannot be held responsible if the winner
+    does not receive their prize as a result of having provided incomplete or inaccurate email address
+    details.
+23. The Promoter reserves the right to verify the winning entries including asking for a winner's
+    identity, including proof of age, (which they must provide within 14 days but which will not be
+    retained following verification by the Promoter and redemption of the prize) and to refuse to
+    award the prize or withdraw the prize entitlement and/or refuse further participation in the
+    promotion and disqualify the participant where there are reasonable grounds to believe there has
+    been a breach of these terms and conditions or any instructions forming part of the entry
+    requirements or otherwise where a participant has gained unfair advantage in participating in the
+    promotion or won using fraudulent means. The Promoter will be the final arbiter in any decisions,
+    and these will be binding and no correspondence will be entered into in relation to this clause.
+24. In the event of circumstances outside the reasonable control of the Promoter, or otherwise where
+    fraud, abuse, and/or an error (human or computer) affects or could affect the proper operation
+    of this promotion or the awarding of the prize, the Promoter reserves the right to suspend the
+    promotion, replace the prize with an alternative prize of equal or higher value, or amend these
+    terms and conditions, at any stage, with no liability to any entrants or third parties, but will always
+    endeavour to minimise the effect to participants in order to avoid undue disappointment.
+25. This promotion and these terms and conditions shall be governed by and construed in accordance
+    with English law and the parties to any dispute or action shall submit to the jurisdiction of the
+    English and Welsh courts.
+26. Entrants are deemed to have accepted these terms and conditions by participating in this
+    promotion.
+27. **Promoter:** Molson Coors Brewing Company (UK) Limited, 137 High Street, Burton Upon Trent, DE14
+    1JZ.
+
+**NOTE: ALL TERMS AND CONDITIONS ARE SUBJECT TO FINAL LEGAL APPROVAL BY THE CLIENT**

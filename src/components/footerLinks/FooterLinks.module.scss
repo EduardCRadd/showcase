@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+
+  p {
+    font-size: 12px;
+    text-align: center;
+    color: rgba(#000, 0.6);
+    font-family: Gotham;
+    font-weight: 300;
+  }
+
+  a {
+    font-size: inherit;
+    display: inline-block;
+  }
+}
+
+.link {
+  color: rgba(#000, 0.6);
+  margin: 2px;
+  text-decoration: underline;
+  font-family: Gotham;
+  font-size: 12px;
+  font-weight: 300;
+}

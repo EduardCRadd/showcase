@@ -1,0 +1,21 @@
+.lottieWrapper {
+  position: absolute;
+  width: 200%;
+  bottom: -30vh;
+  left: 50%;
+  transform: translate(-50%, 0);
+  object-fit: cover;
+
+  @media (max-height: 740px) {
+    bottom: -34vh;
+  }
+  @media (max-height: 720px) {
+    bottom: -36vh;
+  }
+  @media (max-height: 680px) {
+    bottom: -38vh;
+  }
+  @media (max-height: 548px) {
+    bottom: -40vh;
+  }
+}

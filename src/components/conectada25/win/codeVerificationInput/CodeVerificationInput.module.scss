@@ -1,0 +1,124 @@
+@use '@/styles/colours.scss';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100dvh;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex: 1;
+}
+
+.stateContainer {
+  position: relative;
+  width: 100%;
+  min-height: 106px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media (max-height: 548px) {
+    min-height: 98px;
+  }
+}
+
+.stateBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.stateMessage {
+  background: colours.$gold;
+  color: #fff;
+  width: fit-content;
+  text-transform: capitalize;
+  font-family: Steelfish;
+  font-weight: bold;
+  font-size: 24px;
+  text-transform: uppercase;
+  border-radius: 30px;
+  padding: 6px 21.5px 9px 21.5px;
+}
+
+.stateInfo {
+  font-family: Gotham;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 0.01em;
+}
+
+.inputBox {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 2px;
+  padding: 22px 20px 32px;
+
+  @media (max-height: 548px) {
+    padding: 6px 20px 12px;
+  }
+}
+
+.inputWrapper {
+  position: relative;
+}
+
+.input {
+  border-radius: 2px;
+  width: 100%;
+  max-width: 48px;
+  height: 86px;
+  border: 1px solid colours.$shadowRed;
+  background-color: white;
+  color: colours.$black;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bold;
+  outline: none;
+
+  &::placeholder {
+    color: transparent;
+  }
+}
+
+.inputDecoration {
+  position: absolute;
+  bottom: 4px;
+  left: 50%;
+  width: 80%;
+  height: 5px;
+  background-color: colours.$black;
+  transform: translateX(-50%);
+}
+
+.helpBtn {
+  font-family: Gotham;
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 26%;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-color: rgba(255,255,255,0.3);
+  text-underline-offset: 2px;
+
+  -webkit-text-decoration-color: rgba(255, 255, 255, 0.3);
+  -webkit-text-underline-offset: 2px;
+}
+
+.handsSvg {
+  margin: -6px 0;
+}

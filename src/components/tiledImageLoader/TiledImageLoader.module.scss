@@ -1,0 +1,22 @@
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.tileContainer {
+  display: grid;
+}
+
+.tile {
+  position: relative;
+  transition: all 1s;
+  opacity: 0;
+}
+
+.tileContent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

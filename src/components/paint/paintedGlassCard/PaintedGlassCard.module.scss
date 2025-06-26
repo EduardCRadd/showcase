@@ -1,0 +1,51 @@
+@use '@/styles/colours.scss';
+
+.container {
+  width: 100%;
+  border-radius: 20px;
+  background-color: colours.$gold;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+
+  max-height: calc(100vh - 244px);
+  max-height: calc(100svh - 244px);
+
+  position: relative;
+
+  overflow: hidden;
+}
+
+.background {
+  position: absolute;
+  inset: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  mix-blend-mode: luminosity;
+  opacity: 0.1;
+}
+
+.glass {
+  z-index: 10;
+  aspect-ratio: 170/375;
+  object-fit: contain;
+
+  width: auto;
+  max-height: min(100%, 375px);
+}
+
+.logo {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+}
+
+.label {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}

@@ -1,0 +1,51 @@
+@use '@/styles/colours';
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 72px;
+  height: 72px;
+  background-color: colours.$gold;
+  border-radius: 50%;
+  z-index: 2;
+}
+.iconHidden {
+  visibility: hidden;
+}
+
+.instruction {
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  position: absolute;
+  margin-left: 172px;
+  align-items: center;
+  padding: 8px;
+  &::after {
+    content: '';
+    position: absolute;
+    background-color: #fff;
+    left: -23px;
+    //bottom: 16px;
+    height: 16px;
+    width: 24px;
+    clip-path: polygon(53% 49%, 100% 100%, 100% 0);
+  }
+}
+
+.pulse {
+  position: absolute;
+  background-color: colours.$gold;
+  opacity: 0.5;
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+}

@@ -1,0 +1,143 @@
+@use '@/styles/colours.scss';
+
+.header {
+  z-index: 1;
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(180deg, colours.$red 20%, rgba(255, 255, 255, 0) 100%);
+  padding-bottom: 32px;
+  pointer-events: none;
+}
+
+.canvasSizeGuide {
+  flex: 1;
+  width: 100%;
+  overflow: hidden;
+}
+
+.pickers {
+  position: absolute;
+  left: 24px;
+  bottom: 14vh;
+  bottom: 14svh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: colours.$shadowLightRed;
+  gap: 8px;
+  border-radius: 99999px;
+  padding: 16px 8px;
+  z-index: 100;
+
+  @media screen and (max-height: 620px) {
+    bottom: 7vh;
+    bottom: 7svh;
+  }
+}
+
+.pickersArrow {
+  pointer-events: none;
+  touch-action: none;
+  user-select: none;
+
+  position: absolute;
+  bottom: calc(100% + 32px);
+  left: -4px;
+  transform-origin: 32px 100%;
+
+  @media screen and (max-width: 410px) {
+    transform: scale(0.9);
+  }
+}
+
+.divider {
+  width: 100%;
+  height: 1.5px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.controls {
+  position: absolute;
+  right: 16px;
+  top: 20vh;
+  top: 20svh;
+  width: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+
+  .zoom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: colours.$shadowLightRed;
+    border-radius: 99999px;
+    padding: 16px 8px;
+    gap: 8px;
+    width: 100%;
+  }
+
+  .undo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: colours.$shadowLightRed;
+    border-radius: 50%;
+    width: 100%;
+    height: 48px;
+  }
+}
+
+.save {
+  position: absolute;
+  right: 0;
+  bottom: 18vh;
+  bottom: 18svh;
+
+  transform-origin: right center;
+  z-index: 10;
+
+  > button {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+}
+
+.saveArrow {
+  pointer-events: none;
+  touch-action: none;
+  user-select: none;
+  position: absolute;
+  bottom: calc(100% + 32px);
+  right: 16px;
+  transform-origin: calc(100% - 32px) 100%;
+
+  @media screen and (max-width: 410px) {
+    transform: scale(0.9);
+  }
+}
+
+.delete {
+  position: absolute;
+  background-color: #fff;
+  border-radius: 12px;
+  width: 48px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 12px 4px rgba(0, 0, 0, 0.2);
+}
+
+.fallbackMessage {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+}

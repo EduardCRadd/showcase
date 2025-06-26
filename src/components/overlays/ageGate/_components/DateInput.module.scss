@@ -1,0 +1,55 @@
+@use '@/styles/colours.scss';
+
+@use '@/styles/fonts.scss';
+
+.container {
+  position: relative;
+  width: 100%;
+
+  .input {
+    width: 100%;
+    height: 64px;
+    border-radius: 8px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    background: none;
+    border: none;
+    font-size: 36px;
+    font-family: Steelfish;
+    font-weight: 300;
+
+    &::placeholder {
+      color: colours.$patternRed;
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    @media screen and (max-height: 600px) {
+      font-size: 28px;
+      height: 56px;
+    }
+  }
+
+  &::after,
+  &::before {
+    content: '';
+    position: absolute;
+    left: 4px;
+    width: calc(100% - 8px);
+    height: 1.5px;
+    background: colours.$gold;
+  }
+  &::after {
+    bottom: 0;
+  }
+  &::before {
+    top: 0;
+  }
+}
+
+.error {
+  color: colours.$error !important;
+}

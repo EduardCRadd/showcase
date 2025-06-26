@@ -1,0 +1,54 @@
+@use '@/styles/colours';
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.timerCell {
+  display: flex;
+  flex-direction: column;
+
+  font-family: 'Steelfish';
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 1;
+  text-align: center;
+  flex: 1;
+
+  div {
+    letter-spacing: 0.08em;
+    font-size: 20px;
+    margin-top: 8px;
+    color: colours.$shadowRed;
+  }
+}
+
+.timerSeconds {
+  color: colours.$gold;
+}
+
+.countdownText {
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  margin-top: 32px;
+
+  font-family: 'Gotham';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+}
+
+.linksContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+  gap: 32px;
+}

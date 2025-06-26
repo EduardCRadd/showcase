@@ -1,0 +1,100 @@
+.container {
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  overflow-y: auto;
+  background-color: white;
+  padding-bottom: 3rem;
+  color: black;
+  opacity: 0;
+
+  header {
+    padding: 1rem 1rem 1rem 1.5rem;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: white;
+
+    .close {
+      height: 24px;
+      width: 24px;
+      object-fit: contain;
+    }
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-transform: uppercase;
+  }
+
+  .markdown {
+    padding: 0 1.5rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    ul li {
+      margin-bottom: 8px;
+    }
+
+    li ul {
+      margin-left: 16px;
+    }
+
+    ol {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+
+      li > * {
+        margin-bottom: 8px;
+      }
+
+      li ol {
+        list-style-type: lower-alpha;
+        margin-left: 16px;
+      }
+    }
+
+    a {
+      display: inline;
+      text-decoration: underline;
+    }
+  }
+}
+
+.tableWrapper {
+  display: flex;
+  flex-direction: column;
+
+  > span {
+    align-self: flex-end;
+    display: block;
+    margin-bottom: 4px;
+  }
+
+  > div {
+    overflow-x: auto;
+    table {
+      width: 100%;
+      border-collapse: collapse;
+
+      th,
+      td {
+        padding: 0.5rem;
+        border: 1px solid #000;
+      }
+
+      td {
+        vertical-align: top;
+        min-width: 180px;
+      }
+
+      th {
+        color: #000;
+      }
+    }
+  }
+}

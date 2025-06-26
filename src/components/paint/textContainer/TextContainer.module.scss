@@ -1,0 +1,16 @@
+@use '@/styles/colours.scss';
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+  .gradient {
+    background-image: colours.$goldGradient;
+    width: 100%;
+    height: 3px;
+  }
+
+  > div {
+    background-color: colours.$red;
+  }
+}
