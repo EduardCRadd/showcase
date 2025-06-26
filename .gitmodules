@@ -1,0 +1,4 @@
+[submodule ".ci"]
+	path = .ci
+	url = git@gitlab.com:sharpend/Platform/iac-sharpend.git
+	branch = main
